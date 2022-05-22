@@ -26,3 +26,15 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.menudiv {
+  left: 0;
+  padding-left: 36px;
+  padding-right: 8px;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.5s, padding-left 0.125s;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 20;
+}
