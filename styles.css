@@ -37,4 +37,9 @@ h1 {
   white-space: nowrap;
   width: 100%;
   z-index: 20;
+  background-color: transparent;
+}
+
+.menudiv:not([data-scroll="0"]) {
+  background-color: black;
 }
