@@ -38,8 +38,15 @@ h1 {
   width: 100%;
   z-index: 20;
   background-color: transparent;
+  color: white;
 }
 
 .menudiv:not([data-scroll="0"]) {
   background-color: black;
+  color: white;
+}
+
+.menudiv: ([data-scroll= "0" ]) {
+  background-color: transparent;
+  color: white;
 }
