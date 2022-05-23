@@ -41,7 +41,6 @@ h1 {
   color: white;
 }
 
-.menudiv:not([data-scroll="0"]) {
+menudiv:not([data-scroll="0"]) {
   background-color: black;
-  color: white;
 }
